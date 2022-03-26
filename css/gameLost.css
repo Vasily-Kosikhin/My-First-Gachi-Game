@@ -1,0 +1,23 @@
+.gameLostBody {
+  height: 400px;
+  width: 600px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gameLostHead {
+  margin-top: 200px;
+  width: 600px;
+  height: 200px;
+
+  font-size: 50px;
+  color: whitesmoke;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+  text-shadow: 4px 4px 4px black;
+}

@@ -1,0 +1,119 @@
+.records {
+  position: absolute;
+  width: 1366px;
+  height: 768px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-image: url(https://icdn.lenta.ru/images/2021/01/29/17/20210129175240891/pwa_vertical_1280_4b574e2c237682f3a16e2c0c3cd7a878.jpg);
+}
+
+.recorsBody {
+  width: 900px;
+  height: 700px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.recordsBodyHead {
+  width: 900px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 40px;
+  color: whitesmoke;
+  text-shadow: 4px 4px 4px black;
+}
+
+.recordsHeadName {
+  width: 900px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recordsHeadScore {
+  width: 900px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redorsTableBody {
+  width: 900px;
+  height: 560px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.redorsTableBody::-webkit-scrollbar-button {
+  width: 5px;
+  height: 0px;
+}
+.redorsTableBody::-webkit-scrollbar-track {
+  background-color: bisque;
+}
+.redorsTableBody::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  background-color: #124549;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #56999f;
+}
+.attemptHiredorsTableBodystoryBody::-webkit-resizer {
+  width: 10px;
+  height: 0px;
+}
+.redorsTableBody::-webkit-scrollbar {
+  width: 10px;
+}
+
+.recorsTableBodyContainer {
+  width: 900px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.recordsTableName {
+  width: 900px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 40px;
+  color: whitesmoke;
+  text-shadow: 4px 4px 4px black;
+}
+
+.recordsTableScore {
+  width: 900px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 40px;
+  color: whitesmoke;
+  text-shadow: 4px 4px 4px black;
+}
+
+.recordsBodyBottom {
+  width: 900px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

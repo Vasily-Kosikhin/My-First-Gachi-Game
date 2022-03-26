@@ -1,0 +1,13 @@
+.back {
+  width: 1366px;
+  height: 768px;
+  background-color: linear-gradient(#ff8c57, #ff0000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(https://3.bp.blogspot.com/-ObbC6gX8zCw/V_MNCC3VJbI/AAAAAAAADQ0/OHvkedniltoxely00YpbO1hbvUeRZnmqQCLcB/s1600/20161002172331_1.jpg);
+  border-radius: 5%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

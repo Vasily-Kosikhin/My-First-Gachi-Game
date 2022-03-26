@@ -1,0 +1,94 @@
+.gameLostBody {
+  height: 400px;
+  width: 600px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gameLostHead {
+  margin-top: 200px;
+  width: 600px;
+  height: 200px;
+
+  font-size: 50px;
+  color: whitesmoke;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+  text-shadow: 4px 4px 4px black;
+}
+
+.wiinerBannerBody {
+  position: absolute;
+  width: 960px;
+  height: 640px;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.wiinerBannerTop {
+  width: 960px;
+  height: 540px;
+  border-radius: 30px 30px 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-image: url(https://sun9-19.userapi.com/sun9-40/impg/DBAFlagcqVg2TNB8F6vALZQSrPHpjw1Vwo8AVQ/J8agMApiaoU.jpg?size=604x340&quality=96&sign=51c8a1878255f46cf7213f3dc6671ed6&type=album);
+}
+
+.wiinerBannerBottom {
+  width: 960px;
+  height: 100px;
+  display: flex;
+  background: linear-gradient(#23375c, #2889c9);
+  border-radius: 0px 0px 30px 30px;
+}
+
+.wiinerBannerBottomLeft {
+  width: 440px;
+  height: 100px;
+  font-size: 40px;
+  color: whitesmoke;
+  text-align: left;
+  align-items: center;
+  display: flex;
+  margin-left: 10px;
+}
+
+.wiinerBannerBottomRight {
+  width: 520px;
+  height: 100px;
+  font-size: 40px;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.winnerBottomInput {
+  width: 500px;
+  height: 45px;
+  font-size: 35px;
+  color: whitesmoke;
+  letter-spacing: 2px;
+  background: linear-gradient(#144aad, #03263d);
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px 5px 5px;
+}
+
+.inputBarBottomInput {
+  height: 180px;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 150px;
+  text-align: center;
+  letter-spacing: 20px;
+  border-radius: 30px;
+  background: linear-gradient(#459425, #13420f);
+}

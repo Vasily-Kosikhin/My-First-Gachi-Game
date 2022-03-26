@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: StratosSkyeng;
+  src: url(https://cdn-user53347.skyeng.ru/assets/fonts/stratos/stratosskyengweb-regular.woff2)
+      format("woff2"),
+    url(https://cdn-user53347.skyeng.ru/assets/fonts/stratos/stratosskyengweb-regular.woff)
+      format("woff");
+}
+
+.main {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  right: 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(#271a1a, #4d0909);
+}

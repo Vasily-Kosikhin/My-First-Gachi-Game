@@ -1,0 +1,77 @@
+.difficulty {
+  width: 1000px;
+  height: 700px;
+  display: block;
+  border-radius: 40px;
+  font-size: 40px;
+  color: whitesmoke;
+  text-shadow: 4px 4px 4px black;
+}
+
+.difficultyHead {
+  width: 1000px;
+  height: 200px;
+  text-align: center;
+}
+
+.difficultyBody {
+  width: 1000px;
+  height: 500px;
+  text-align: center;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.masterDifficulty {
+  width: 300px;
+  height: 500px;
+  justify-content: center;
+}
+
+.masterButton {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bossImage {
+  width: 300px;
+  height: 400px;
+  justify-content: center;
+  background-color: blue;
+  border-radius: 50px;
+  background-image: url(https://tsfs.kinomania.ru/file/news/a/15/a15af7d601dcffecb6031af051dbacc1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 3px solid red;
+}
+
+.boyImage {
+  width: 300px;
+  height: 400px;
+  justify-content: center;
+  background-color: blue;
+  border-radius: 50px;
+  background-image: url(https://4.bp.blogspot.com/_hbDH3zln19I/TA2ll6BpXPI/AAAAAAAACKE/YKYb9-klA4w/s1600/harley1111111.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 3px solid rgb(209, 65, 65);
+}
+
+.slaveImage {
+  width: 300px;
+  height: 400px;
+  justify-content: center;
+  background-color: blue;
+  border-radius: 50px;
+  background-image: url(https://cdngallery.adonismale.com/monthly_2019_12/small.Splattered.jpg.4ab8accfc280fdf3c6de64f7f1bc54b5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 3px solid lightcoral;
+}

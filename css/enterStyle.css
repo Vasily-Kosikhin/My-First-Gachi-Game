@@ -1,0 +1,40 @@
+.enter {
+  width: 800px;
+  height: 400px;
+  display: block;
+  border-radius: 40px;
+}
+
+.enterHead {
+  width: 800px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: whitesmoke;
+  text-align: center;
+  text-shadow: 4px 4px 4px black;
+}
+
+.enterBody {
+  display: flex;
+  height: 100px;
+  font-size: 50px;
+}
+
+.enterButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+.enterButton {
+  width: 300px;
+  height: 70px;
+  border-radius: 20px;
+  font-size: 30px;
+  color: rgb(80, 13, 13);
+  background: linear-gradient(#ff8c57, #ff0000);
+}
