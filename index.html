@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>1</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/mainStyle.css">
+    <link rel="stylesheet" href="css/backStyle.css">
+    <link rel="stylesheet" href="css/enterStyle.css">
+    <link rel="stylesheet" href="css/rulesStyle.css">
+    <link rel="stylesheet" href="css/difficultyStyle.css">
+    <link rel="stylesheet" href="css/gameStyle.css">
+    <link rel="stylesheet" href="css/gameLost.css">
+    <link rel="stylesheet" href="css/gameWin.css">
+    <link rel="stylesheet" href="css/recordsStyle.css">
+</head>
+
+
+
+<body>
+    <div class="main">
+        <div class="back">
+            <div class="wiinerBannerBody">
+                <div class="wiinerBannerTop"></div>
+                <div class="wiinerBannerBottom">
+                    <div class="wiinerBannerBottomLeft"><span><strong>Victory!</strong> Enter your name:</span></div>
+                    <div class="wiinerBannerBottomRight"><input class="winnerBottomInput"></div>
+                </div>
+            </div>
+            <div class="enter">
+                <div class="enterHead">
+                    <span id="enterText">Are You ready cum into Dungeon?</span>
+                </div>
+                <div class="enterBody">
+                    <div class="enterButtonContainer">
+                        <button type="button" class="enterButton" id="enterButtonYes">Sir, Yes, Sir!</button>
+                    </div>
+                    <div class="enterButtonContainer">
+                        <button type="button" class="enterButton" id="enterButtonNo">No, Master...</button>
+                    </div>
+                </div>
+            </div>
+            <div class="rules">
+                <div class="rulesBody">
+                    <div class="rulesHead">
+                        The <strong>Dungeon Master</strong> makes a four-digit number
+                        <br> with non-repeating digits.
+                    </div>
+                    <div class="rulesBlock">
+                        <img alt="" class="rulesBlockImage" src="https://i.ytimg.com/vi/qAqM6w9WfKg/maxresdefault.jpg">
+                        <strong>"Billy"</strong> is a figure that coincides both in position and in value with the
+                        hidden one.
+                    </div>
+                    <div class="rulesBlock">
+                        <img alt="" class="rulesBlockImage"
+                            src="https://steamuserimages-a.akamaihd.net/ugc/1825640520358359219/DEB5640AC80579D6ECEB880F53A0171AB3635AA0/">
+                        <strong>"Greg"</strong> is a figure that matches in value,
+                        but does not match in position with the desired one
+                    </div>
+                    <div class="rulesBlock">
+                        <img alt="" class="rulesBlockImage" src="https://i.ytimg.com/vi/gbdXz53sV3w/maxresdefault.jpg">
+                        <strong>"Van"</strong> is a figure that does not match both in position and in value.
+                    </div>
+                    <div class="rulesBottom">
+                        Your task is to collect 4 <strong>"Billy"</strong> <br> Every attempt to guess requires a semen.
+                    </div>
+                    <div class="rulesEnter">
+                        <button type="button" class="enterButton" id="rulesButton">Sir, I'm ready, Sir!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="difficulty">
+                <div class="difficultyHead">
+                    <span class="rulesText"><br>Choose your mastery level
+                        <br>Your choice will affect the amount of your semen
+                    </span>
+                </div>
+                <div class="difficultyBody">
+                    <div class="masterDifficulty">
+                        <div class="bossImage"></div>
+                        <div class="masterButton">
+                            <button type="button" class="enterButton" id="bossDifficultyButton">Boss of the Gym</button>
+                        </div>
+                    </div>
+                    <div class="masterDifficulty">
+                        <div class="boyImage"></div>
+                        <div class="masterButton">
+                            <button type="button" class="enterButton" id="boyDifficultyButton">Leatherman</button>
+                        </div>
+                    </div>
+                    <div class="masterDifficulty">
+                        <div class="slaveImage"></div>
+                        <div class="masterButton">
+                            <button type="button" class="enterButton" id="slaveDifficultyButton">Boy next Door</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="game">
+                <div class="healthBody">
+                    <div class="healthCounter">
+                        <span id="semenCounter"><strong></strong></span>
+                    </div>
+                    <div class="healthBar">
+                        <div class="semenMeter"></div>
+                    </div>
+                </div>
+                <div class="gameBody">
+                    <div class="attemptReultBody">
+                        <div class="attemptReult"></div>
+                        <div class="attemptReult"></div>
+                        <div class="attemptReult"></div>
+                        <div class="attemptReult"></div>
+                    </div>
+                    <div class="gameInterfaceBody">
+                        <div class="inputBarBody">
+                            <div class="inputBarHead">
+                                <span>Type Numbers then CUM <br> Beware your semen limited!</span>
+                            </div>
+                            <div class="inputBarBottom">
+                                <input class="inputBarBottomInput">
+                            </div>
+                        </div>
+                        <div class="gameMainButtonBody">
+                            <button class="gameMainButton">
+                                <span class="gameMainButtonText">CUM</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="attemptHistoryBody"></div>
+            </div>
+            <div class="gameLost">
+                <div class="gameLostBody">
+                    <div class="gameLostHead">
+                        <span>You spent ALL your <strong>SEMEN!</strong> <br> And did not collect 4 "Billy"</span>
+                    </div>
+                    <div class="gameLostButtonLeft">
+                        <button type="button" class="enterButton" id="repeatButton">Another Hot Load</button>
+                    </div>
+                    <div class="gameLostBottomRigh">
+                        <button type="button" class="enterButton" id="recordsButton">Gym Records</button>
+                    </div>
+                </div>
+            </div>
+            <div class="records">
+                <div class="recorsBody">
+                    <div class="recordsBodyHead">
+                        <div class="recordsHeadName">Boy`s name:</div>
+                        <div class="recordsHeadScore">Attempts</div>
+                    </div>
+                    <div class="redorsTableBody">
+                        <div class="recorsTableBodyContainer">
+                            <div class="recordsTableName">Evgeny Ponasekov</div>
+                            <div class="recordsTableScore">4</div>
+                        </div>
+                        <div class="recorsTableBodyContainer">
+                            <div class="recordsTableName">Maxim Katz</div>
+                            <div class="recordsTableScore">9</div>
+                        </div>
+                        <div class="recorsTableBodyContainer">
+                            <div class="recordsTableName">Michail Svetov</div>
+                            <div class="recordsTableScore">6</div>
+                        </div>
+                    </div>
+                    <div class="recordsBodyBottom">
+                        <button type="button" class="enterButton" id="repeatButton2">Another Hot Load</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="audoioContainer">
+        <audio class="fuckYou" controls>
+            <source src="music/fuckYou.mp3">
+        </audio>
+        <audio class="letsSuckSomeDick" controls>
+            <source src="music/letsSuckSomeDick.mp3">
+        </audio>
+        <audio class="mmm" controls>
+            <source src="music/mmm.mp3">
+        </audio>
+        <audio class="OhYesSir" controls>
+            <source src="music/OhYesSir.mp3">
+        </audio>
+        <audio class="spankOne" controls>
+            <source src="music/spankOne.mp3">
+        </audio>
+        <audio class="spankTwo" controls>
+            <source src="music/spankTwo.mp3">
+        </audio>
+        <audio class="suction" controls>
+            <source src="music/suction.mp3">
+        </audio>
+        <audio class="thankYouSir" controls>
+            <source src="music/thankYouSir.mp3">
+        </audio>
+        <audio class="woo" controls>
+            <source src="music/woo.mp3">
+        </audio>
+        <audio class="lubeItUp" controls>
+            <source src="music/lubeItUp.mp3">
+        </audio>
+        <audio class="lash" controls>
+            <source src="music/lash.mp3">
+        </audio>
+        <audio class="boyNexDoor" controls>
+            <source src="music/boyNexDoor.mp3">
+        </audio>
+        <audio class="fuckYouLeatherMan" controls>
+            <source src="music/fuckYouLeatherMan.mp3">
+        </audio>
+        <audio class="ourDaddy" controls>
+            <source src="music/ourDaddy.mp3">
+        </audio>
+        <audio class="takeItBoy" controls>
+            <source src="music/takeItBoy.mp3">
+        </audio>
+        <audio class="swallowMyCum" controls>
+            <source src="music/swallowMyCum.mp3">
+        </audio>
+    </div>
+    <script src="js/mainJS.js"></script>
+</body>
+
+</html>
